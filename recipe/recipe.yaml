@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-mgmt-search
-  version: "9.2.0"
+  version: "10.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: a0da0ec332d1f43d0f6acb63b8cfd80085b075e91afcf812f8c769ad9fdcad84
+  sha256: 7f58c267b22069d3a384073a83aed135e1a3e3f65ef37f245fabecddf567dcab
 
 build:
   number: 0
